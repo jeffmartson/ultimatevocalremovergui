@@ -23,7 +23,7 @@ pyrubberband==0.3.0
 pytorch_lightning==2.0.0
 PyYAML==6.0
 resampy==0.4.2
-scipy==1.9.3
+scipy==1.10.0rc1
 soundstretch==1.2
 torch
 urllib3==1.26.12
@@ -40,3 +40,4 @@ SoundFile==0.11.0; sys_platform != 'darwin'
 PySoundFile==0.9.0.post1; sys_platform == 'darwin'
 Dora==0.0.3
 numpy==1.23.5
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
